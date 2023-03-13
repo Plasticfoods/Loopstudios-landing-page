@@ -225,10 +225,6 @@ main {
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 3rem;
-  width: -moz-min-content;
-  width: min-content;
-  height: -moz-min-content;
-  height: min-content;
 }
 @media (min-width: 700px) {
   main {
@@ -255,7 +251,7 @@ main {
     background-image: url(../images/desktop/image-interactive.jpg);
     background-size: cover;
     width: 60%;
-    height: 35rem;
+    height: 30rem;
     z-index: 0;
   }
 }
@@ -308,8 +304,4 @@ main {
     font-size: 1.1rem;
     padding-bottom: 20px;
   }
-}
-
-.gallery {
-  transform: translateY(-120%);
 }/*# sourceMappingURL=main.css.map */
