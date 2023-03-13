@@ -16,15 +16,16 @@ header {
     background-position: center;
     height: 90%;
     color: $clr-white;
-    
+    margin: 0;
+
     padding-top: 2rem;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: $mobile-padding;
+    padding-right:$mobile-padding;
 
     @media (min-width: $brakpoint) {
         & {
-            padding-left: 7%; 
-            padding-right: 7%; 
+            padding-left: $desktop-padding; 
+            padding-right: $desktop-padding; 
             padding-top: 2rem;
             padding-bottom: 4rem;
             background-image: url(../images/desktop/image-hero.jpg);
