@@ -1,0 +1,107 @@
+@import "../base/variables";
+
+
+.gallery-image:nth-child(1) {
+    background-image: url(../images/mobile/image-deep-earth.jpg);
+}
+.gallery-image:nth-child(2) {
+    background-image: url(../images/mobile/image-night-arcade.jpg);
+}
+.gallery-image:nth-child(3) {
+    background-image: url(../images/mobile/image-soccer-team.jpg);
+}
+.gallery-image:nth-child(4) {
+    background-image: url(../images/mobile/image-grid.jpg);
+}
+.gallery-image:nth-child(5) {
+    background-image: url(../images/mobile/image-from-above.jpg);
+}
+.gallery-image:nth-child(6) {
+    background-image: url(../images/mobile/image-pocket-borealis.jpg);
+}
+.gallery-image:nth-child(7) {
+    background-image: url(../images/mobile/image-curiosity.jpg);
+}
+.gallery-image:nth-child(8) {
+    background-image: url(../images/mobile/image-fisheye.jpg);
+}
+
+@media (min-width: 768px) {
+    .gallery-image:nth-child(1) {
+        background-image: url(../images/desktop/image-deep-earth.jpg);
+    }
+    .gallery-image:nth-child(2) {
+        background-image: url(../images/desktop/image-night-arcade.jpg);
+    }
+    .gallery-image:nth-child(3) {
+        background-image: url(../images/desktop/image-soccer-team.jpg);
+    }
+    .gallery-image:nth-child(4) {
+        background-image: url(../images/desktop/image-grid.jpg);
+    }
+    .gallery-image:nth-child(5) {
+        background-image: url(../images/desktop/image-from-above.jpg);
+    }
+    .gallery-image:nth-child(6) {
+        background-image: url(../images/desktop/image-pocket-borealis.jpg);
+    }
+    .gallery-image:nth-child(7) {
+        background-image: url(../images/desktop/image-curiosity.jpg);
+    }
+    .gallery-image:nth-child(8) {
+        background-image: url(../images/desktop/image-fisheye.jpg);
+    }
+}
+
+.gallery-section {
+    display: grid;
+    gap: 3rem;
+}
+
+.gallery-section .title{
+    text-align: center;
+}
+
+.gallery-images {
+    display: grid;
+    gap: 2rem;
+}
+
+.gallery-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 9rem;
+
+}
+
+.gallery-image p {
+    max-width: 192px;
+    z-index: 2;
+    color: $clr-white;
+    font-weight: 390;
+    font-size: 2rem;
+    position: absolute;
+    word-break: keep-all;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    line-height: 2rem;
+}
+
+.btn {
+    background-color: $clr-white;
+    border: 1.5px solid $clr-black;
+    text-transform: uppercase;
+    color: $clr-black;
+    letter-spacing: .3rem;
+    font-weight: 600;
+
+    padding: 1rem 3rem;
+    margin: 0 auto;
+}
+
+header, .hero-image,  .nav-menu {
+    display: none;
+}
