@@ -1,7 +1,6 @@
 @import "../base/variables";
 
 main {
-    outline: 2px solid red;
     padding-left: $mobile-padding;
     padding-right: $mobile-padding;
     padding-top: 3rem;
@@ -54,9 +53,9 @@ main {
     
     @media (min-width: 900px) {
         text-align: left;
-        width: 52%;
-        height: 30rem;
-        padding: 6.5rem;
+        width: 48%;
+        height: 29rem;
+        padding: 6rem;
         z-index: 2;
         
         position: absolute;
@@ -75,18 +74,20 @@ main {
         font-size: 3.5rem;
         font-weight: 300;
         line-height: 3rem;
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left:0;
     }
 }
 
 .company-description {
     padding: 1rem;
     padding-bottom: 3rem;
+    padding-left: 0;
     color: $clr-grey;
 
     @media (min-width: 1200px) {
         font-size: 1.1rem;
         padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
