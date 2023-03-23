@@ -1,9 +1,5 @@
 @import "../base/variables";
 
-// header, main {
-//     display: none;
-// }
-
 footer {
     background-color: $clr-black;
     color: $clr-white;
@@ -19,9 +15,9 @@ footer .logo {
 }
 
 footer .nav-item {
-    cursor: pointer;
     text-align: center;
     text-transform: none;
+    margin-bottom: 10px;
 
     @media (max-width: 768px) {
         font-size: 1rem;
