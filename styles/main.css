@@ -155,12 +155,13 @@ header {
   border-radius: 4.5px;
   background-color: hsl(0, 0%, 100%);
   transform-origin: center;
+  transition: 500ms;
 }
 
 @media (max-width: 768px) {
   .hamburger-button {
     display: flex;
-    transition: all 1000ms;
+    cursor: pointer;
   }
   .hamburger-button.active .bar:nth-child(2) {
     opacity: 0;

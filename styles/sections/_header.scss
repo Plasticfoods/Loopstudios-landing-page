@@ -94,6 +94,7 @@ header {
         background-color: $clr-white;
         
         transform-origin: center;
+        transition: 500ms;
     }
 }
 
@@ -101,9 +102,9 @@ header {
 @media (max-width: 768px) {
     .hamburger-button {
         display: flex;
-        // cursor: pointer;
-        transition: all 1000ms;
+        cursor: pointer;
     }
+    
     .hamburger-button.active {
         $cross-bar-width: 37.2px;
         $bar-gap: ($hamburger-height - (3 * $bar-height))/2;
