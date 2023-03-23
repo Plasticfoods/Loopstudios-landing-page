@@ -1,12 +1,79 @@
 @import "../base/variables";
 
+// header, main {
+//     display: none;
+// }
 
 footer {
-    outline: 3px solid red;
-    background-color: #eee;
-    padding-left: $mobile-padding;
-    padding-right: $mobile-padding;
+    background-color: $clr-black;
+    color: $clr-white;
+
+    padding: 3rem $mobile-padding;
     
     display: grid;
-    gap: 1rem;
+    gap: 1.6rem;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+footer .nav-item {
+    cursor: pointer;
+    text-align: center;
+    text-transform: none;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin: 0 auto;
+}
+.media-icons:hover {
+    cursor: pointer;
+}
+
+.copyright-notice {
+    color: $clr-dark-grey;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding-left: $desktop-padding;
+        padding-right: $desktop-padding;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    footer .logo {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .footer-nav-menu {
+        display: flex;
+        flex-direction: row;
+        grid-row: 2/3;
+        grid-column: 1/2;
+        gap: 1.6rem;
+    }
+
+    .media-icons {
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .copyright-notice {
+        text-align: end;
+    }
 }
