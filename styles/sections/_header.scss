@@ -132,7 +132,7 @@ header {
     .nav-menu {
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         left: 0;
         padding-left: $mobile-padding;
@@ -151,7 +151,7 @@ header {
         text-transform: uppercase;
     }
     .nav-menu.active {
-        transform: translateY(2%);
+        transform: translateY(1%);
     }
 }
 
@@ -159,7 +159,6 @@ header {
 
 .tagline {
     border: 3px solid $clr-white;
-    // border-right: transparent;
     font-size: 4.6rem;
     font-weight: 390;
     line-height:5rem;

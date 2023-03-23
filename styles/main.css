@@ -186,7 +186,7 @@ header {
   .nav-menu {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     left: 0;
     padding-left: 6%;
@@ -204,7 +204,7 @@ header {
     text-transform: uppercase;
   }
   .nav-menu.active {
-    transform: translateY(2%);
+    transform: translateY(1%);
   }
 }
 .tagline {
@@ -403,6 +403,7 @@ main {
 
 .gallery-image {
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   position: relative;
   width: 100%;
