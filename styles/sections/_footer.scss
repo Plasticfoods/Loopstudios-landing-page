@@ -1,6 +1,12 @@
 @import "../base/variables";
 
+
 footer {
+    outline: 3px solid red;
+    background-color: #eee;
     padding-left: $mobile-padding;
     padding-right: $mobile-padding;
+    
+    display: grid;
+    gap: 1rem;
 }

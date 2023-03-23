@@ -104,13 +104,21 @@ header {
   }
 }
 
+.logo {
+  font-size: 2.4rem;
+}
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+
 .navbar {
   display: flex;
   align-items: center;
 }
 .navbar .logo {
   flex-grow: 2;
-  font-size: 2.4rem;
 }
 .navbar .nav-menu {
   display: flex;
@@ -225,7 +233,7 @@ main {
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 3rem;
-  padding-bottom: 7rem;
+  padding-bottom: 6rem;
 }
 @media (min-width: 700px) {
   main {
@@ -467,4 +475,12 @@ main {
     top: -2px;
     padding: 0.8rem 2.5rem;
   }
+}
+footer {
+  outline: 3px solid red;
+  background-color: #eee;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: grid;
+  gap: 1rem;
 }/*# sourceMappingURL=main.css.map */
