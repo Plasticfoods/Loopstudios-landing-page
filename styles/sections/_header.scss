@@ -27,7 +27,7 @@ header {
     padding-left: $mobile-padding;
     padding-right:$mobile-padding;
 
-    @media (min-width: $brakpoint) {
+    @media (min-width: $breakpoint) {
         & {
             padding-left: $desktop-padding; 
             padding-right: $desktop-padding; 

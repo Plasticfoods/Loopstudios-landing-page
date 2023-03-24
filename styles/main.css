@@ -92,7 +92,7 @@ header {
   padding-left: 6%;
   padding-right: 6%;
 }
-@media (min-width: 765px) {
+@media (min-width: 770px) {
   header {
     padding-left: 8%;
     padding-right: 8%;
@@ -112,7 +112,7 @@ header {
   font-size: 2.4rem;
   z-index: 10;
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .logo {
     font-size: 1.8rem;
   }
@@ -158,7 +158,7 @@ header {
   transition: 500ms;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 765px) {
   .hamburger-button {
     display: flex;
     cursor: pointer;
@@ -204,7 +204,7 @@ header {
     text-transform: uppercase;
   }
   .nav-menu.active {
-    transform: translateY(1%);
+    transform: translateY(0%);
   }
 }
 .tagline {
@@ -232,7 +232,7 @@ header {
     padding-right: 3rem;
     font-size: 2.4rem;
     line-height: 3.3rem;
-    top: 24%;
+    top: 25%;
   }
 }
 
@@ -289,7 +289,7 @@ main {
     text-align: left;
     width: 48%;
     height: 29rem;
-    padding: 6rem;
+    padding: 5rem;
     z-index: 2;
     position: absolute;
     right: 0;
@@ -528,10 +528,9 @@ footer .nav-item {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   footer {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 1.2rem 8%;
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
