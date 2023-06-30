@@ -137,6 +137,10 @@ header {
   }
 }
 
+.nav-item:hover {
+  opacity: .75;
+}
+
 .hamburger-button {
   z-index: 10;
   width: 30px;
@@ -212,12 +216,13 @@ header {
   font-size: 4.6rem;
   font-weight: 390;
   line-height: 5rem;
-  width: 100%;
+  word-break: normal;
   z-index: 0;
   padding: 0.8rem 1.4rem;
+  padding-top: 2.2rem;
   position: relative;
   top: 25%;
-  width: 55%;
+  width: 52%;
 }
 @media (min-width: 651px) and (max-width: 1250px) {
   .tagline {
@@ -229,7 +234,7 @@ header {
 @media (max-width: 650px) {
   .tagline {
     width: 100%;
-    padding-right: 2.8rem;
+    padding-right: 3rem;
     font-size: 2.4rem;
     line-height: 3.3rem;
     top: 25%;
@@ -427,7 +432,7 @@ main {
 
 .gallery-image:hover {
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.75;
   filter: alpha(opacity=40);
 }
 
