@@ -14,7 +14,6 @@ Users should be able to:
 ### Screenshot
 
 ![desktop-preview](https://github.com/Plasticfoods/Loopstudios-landing-page/assets/109089484/f22dbd12-a0e6-4e74-835f-90f3b5d230dd)
-![mobile-menu](https://github.com/Plasticfoods/Loopstudios-landing-page/assets/109089484/d53fc52e-2a80-4fe8-a8f1-3363b94adf54)
 
 ### Links
 
